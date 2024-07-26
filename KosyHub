@@ -11,7 +11,7 @@ OrionLib:MakeNotification({
 	Name = "Loading Script...",
 	Content = "Script will be loaded in 1-30 seconds | Note - Seconds Shown Here are not the exact loading time",
 	Image = "rbxassetid://18170549235",
-	Time = 1
+	Time = 5
 })
 --[[
 Name = <string> - The name of the UI.
@@ -33,7 +33,7 @@ OrionLib:MakeNotification({
 	Name = "Script Successfully Loaded",
 	Content = "Loading Has been successful ",
 	Image = "rbxassetid://17849312358",
-	Time = 5
+	Time = 10
 })
 
 --[[
