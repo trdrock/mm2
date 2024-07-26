@@ -30,7 +30,7 @@ OrionLib:MakeNotification({
 	Name = "Script Successfully Loaded",
 	Content = "Loading Has been successful ",
 	Image = "rbxassetid://17849312358",
-	Time = 2
+	Time = 3
 })
 
 --[[
