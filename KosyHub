@@ -11,7 +11,7 @@ OrionLib:MakeNotification({
 	Name = "Loading Script...",
 	Content = "Script will be loaded in 1-30 seconds | Note - Seconds Shown Here are not the exact loading time",
 	Image = "rbxassetid://18170549235",
-	Time = 2
+	Time = 1
 })
 --[[
 Name = <string> - The name of the UI.
@@ -33,7 +33,7 @@ OrionLib:MakeNotification({
 	Name = "Script Successfully Loaded",
 	Content = "Loading Has been successful ",
 	Image = "rbxassetid://17849312358",
-	Time = 2
+	Time = 5
 })
 
 --[[
@@ -55,7 +55,7 @@ Tab:AddButton({
 	Name = "Gun Selected ",
 	Content = "The Equipped-Gun Has Been Successfully Selected",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 25
 })
 
 --[[
@@ -74,7 +74,7 @@ OrionLib:MakeNotification({
 	Name = "Duping Guns...",
 	Content = "Duping is in process-[Takes around 1-5 minutes]-Depending on your device!",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 25
 })
 OrionLib:MakeNotification({
 	Name = "Read-[]",
