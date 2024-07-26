@@ -1,12 +1,13 @@
 getgenv().gui = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/trdrock/mm2/main/Hub"))()
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Kosy hub [3.5]-Summer Update„", HidePremium = false, IntroText = "Kosy hub", IntroIcon = "rbxassetid://18170549235", Icon = "rbxassetid://18170549235", SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
 	Content = "Script will be loaded in 1-30 seconds | Note - Seconds Shown Here are not the exact loading time",
 	Image = "rbxassetid://18170549235",
-	Time = 2
+	Time = 5
 })
 
 
@@ -30,7 +31,7 @@ OrionLib:MakeNotification({
 	Name = "Script Successfully Loaded",
 	Content = "Loading Has been successful ",
 	Image = "rbxassetid://17849312358",
-	Time = 3
+	Time = 10
 })
 
 --[[
@@ -52,7 +53,7 @@ Tab:AddButton({
 	Name = "Gun Selected ",
 	Content = "The Equipped-Gun Has Been Successfully Selected",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 10
 })
 
 --[[
